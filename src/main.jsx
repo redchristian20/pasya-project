@@ -10,7 +10,7 @@ import ErrorPage from "./error-page";
 
 const router = createBrowserRouter([
   {
-    path: "https://redchristian20.github.io/pasya-project/",
+    path: "redchristian20.github.io/pasya-project/",
     element: <Root />,
     errorElement: <ErrorPage />,
   },
