@@ -10,16 +10,15 @@ import ErrorPage from "./error-page";
 
 const router = createBrowserRouter([
   {
-    path: "redchristian20.github.io/pasya-project/",
-    element: <Root />,
-    errorElement: <ErrorPage />,
+    path: "https://redchristian20.github.io/pasya-project/",
+    element: <Root/>,
+    errorElement: <ErrorPage/>,
   },
   {
     path: "/",
-    element: <Root />,
-    errorElement: <ErrorPage />,
+    element: <Root/>,
+    errorElement: <ErrorPage/>,
   },
-
 ]);
 
 ReactDOM.createRoot(document.getElementById("root")).render(
