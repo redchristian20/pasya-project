@@ -7,8 +7,8 @@ const Footer = () => {
                 <div class="md:flex md:justify-between">
                 <div class="mb-6 md:mb-0">
                     <a href="#" class="flex items-center">
-                        <img src="pasya.png" class="h-16 me-3" alt="Pasya Logo" />
-                        <img src="titleh.png" class="h-16 me-3" alt="Pasya" />
+                        <img src="./pasya.png" class="h-16 me-3" alt="Pasya Logo" />
+                        <img src="./titleh.png" class="h-16 me-3" alt="Pasya" />
                     </a>
                 </div>
                 <div class="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">

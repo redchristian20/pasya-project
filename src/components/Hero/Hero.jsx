@@ -3,9 +3,9 @@ import { Link } from "react-router-dom";
 const Hero = () => {
   return (
     <div>
-        <section class="bg-cover bg-no-repeat bg-[url('/rice_terraces.jpg')] bg-gray-700 bg-blend-multiply">
+        <section class="bg-cover bg-no-repeat bg-[url('/terraces.jpg')]">
             <div class="px-4 mx-auto max-w-screen-xl text-center py-24 lg:py-56">
-                <img class="h-auto max-w-sm mx-auto" src="/pasya.png" alt="image description"/>
+                <img class="h-auto max-w-sm mx-auto" src="./pasya.png" alt="image description"/>
                 <h1 class="mb-4 text-2xl font-extrabold tracking-tight leading-none text-green-500 md:text-2xl lg:text-3xl dark:text-white">PASYA: Predictive Analytics for Yield Advancement </h1>
                 <p class="mb-8 text-md font-normal text-gray-300 lg:text-xl sm:px-16 lg:px-42 dark:text-gray-400">Harvest Intelligence, Grow with Certainty</p>
                 <div class="flex flex-col space-y-4 sm:flex-row sm:justify-center sm:space-y-0">
@@ -20,11 +20,11 @@ const Hero = () => {
             <div class="py-8 px-4 mx-auto max-w-screen-xl lg:py-4">
                 <div class="grid md:grid-cols-3 gap-8">
                     <div class="bg-green-200 dark:bg-gray-800 border border-gray-200 dark:border-gray-700 rounded-lg p-8 md:p-12">
-                        <img src="/growing_plant.svg" alt="Icon Description" />
+                        <img src="./growing_plant.svg" alt="Icon Description" />
                         <h2 class="text-gray-900 dark:text-white text-3xl font-extrabold mb-2">10,000+ Hectares monitored</h2>
                     </div>
                     <div class="bg-green-200 dark:bg-gray-800 border border-gray-200 dark:border-gray-700 rounded-lg p-8 md:p-12">
-                        <img src="/growth_arrow.svg" alt="Icon Description" />
+                        <img src="./growth_arrow.svg" alt="Icon Description" />
                         <h2 class="text-gray-900 dark:text-white text-3xl font-extrabold mb-2">+20% Yeilds</h2>
                     </div>
                     <div class="bg-green-200 dark:bg-gray-800 border border-gray-200 dark:border-gray-700 rounded-lg p-8 md:p-12">
@@ -38,7 +38,7 @@ const Hero = () => {
             <div class="py-8 px-4 mx-auto max-w-screen-xl lg:py-4">
                 <div>                    
                     <a href="#" class="flex flex-col items-center bg-white border border-gray-200 rounded-lg shadow-sm md:flex-row md:max-screen-xl hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700 mt-4">
-                        <img class="object-cover w-full rounded-base h-128 md:h-full md:w-128 mb-4 md:mb-0" src="/strawberry_farm.jpg" alt=""/>
+                        <img class="object-cover w-full rounded-base h-128 md:h-full md:w-128 mb-4 md:mb-0" src="./strawberry_farm.jpg" alt=""/>
                         <div class="flex flex-col justify-between md:p-4 leading-normal">
                             <h5 class="mb-2 text-2xl font-bold tracking-tight text-heading">Data-Driven Precision</h5>
                             <p class="mb-6 text-body">Our models are trained on 10+ years of regional data, achieving over 90% accuracy in trend forecasting for key highland vegetables.</p>
@@ -53,7 +53,7 @@ const Hero = () => {
                     </a>
                 </div>
                 <div class="bg-gray-50 dark:bg-gray-800 border border-gray-200 dark:border-gray-700 rounded-lg p-4 md:p-12 mt-8 mb-8">
-                    <img class="mx-auto object-cover w-full rounded-base h-64 md:h-full md:w-48 mb-4 md:mb-8" src="/doa_icon.png" alt=""/>
+                    <img class="mx-auto object-cover w-full rounded-base h-64 md:h-full md:w-48 mb-4 md:mb-8" src="./doa_icon.png" alt=""/>
                     <p class="text-lg font-normal text-gray-500 dark:text-gray-400 mb-4">The Department of Agriculture is the principal government agency responsible for the promotion of the agricultural development and growth. 
                         It provides the policy framework, helps direct public investments, and in partnership with the local government units (LGUs), 
                         provides the support services necessary to make agriculture and agri-based enterprises profitable and help spread the benefits of development to the poor, particularly those in the rural areas.
