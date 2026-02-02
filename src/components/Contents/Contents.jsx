@@ -2,7 +2,7 @@ import React from 'react'
 import { Link } from "react-router-dom";
 const Contents = () => {
   return (
-    <section class="bg-cover bg-no-repeat bg-[url('farming.jpg')] bg-gray-400 bg-blend-multiply">
+    <section class="bg-cover bg-no-repeat bg-[url('/farming.jpg')] bg-gray-400 bg-blend-multiply">
         <div class="py-8 px-4 mx-auto max-w-screen-xl text-center lg:py-16 z-10 relative">
             <p class="mb-8 text-xl font-extrabold text-white lg:text-xl sm:px-32 lg:px-60 dark:text-gray-200">Ready Cultivate the Future of Farming in Benguet?</p>
             <h1 class="mb-4 text-4xl font-extrabold tracking-tight leading-none text-white md:text-5xl lg:text-6xl dark:text-white">Join hundreds of farmers and <br></br>experts already using PASYA to <br></br>make smarter decisions</h1>

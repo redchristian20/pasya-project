@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 const Hero = () => {
   return (
     <div>
-        <section class="bg-cover bg-no-repeat bg-[url('rice_terraces.jpg')] bg-gray-700 bg-blend-multiply">
+        <section class="bg-cover bg-no-repeat bg-[url('/rice_terraces.jpg')] bg-gray-700 bg-blend-multiply">
             <div class="px-4 mx-auto max-w-screen-xl text-center py-24 lg:py-56">
                 <img class="h-auto max-w-sm mx-auto" src="/pasya.png" alt="image description"/>
                 <h1 class="mb-4 text-2xl font-extrabold tracking-tight leading-none text-green-500 md:text-2xl lg:text-3xl dark:text-white">PASYA: Predictive Analytics for Yield Advancement </h1>
