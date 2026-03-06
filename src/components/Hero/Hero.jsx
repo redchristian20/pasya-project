@@ -5,8 +5,8 @@ const Hero = () => {
     <div>
         <section id="home" class="bg-gradient-to-b from-green-200 via-white to-green-200">
             <div class="px-4 mx-auto max-w-screen-xl text-center py-24 lg:py-32">
-                <img class="h-64 max-w-sm mx-auto" src="./pasya.png" alt="image description"/>
-                <h1 class="mb-4 text-2xl font-extrabold tracking-tight leading-none text-green-500 md:text-2xl lg:text-3xl">PASYA: Predictive Analytics for Yield Advancement </h1>
+                <img class="h-48 max-w-sm mx-auto" src="./pasya.png" alt="image description"/>
+                <h1 class="mt-16 mb-4 text-2xl font-extrabold tracking-tight leading-none text-green-500 md:text-2xl lg:text-3xl">PASYA: Predictive Analytics for Yield Advancement </h1>
                 <p class="mb-4 text-md font-bold text-gray-700 lg:text-xl sm:px-16 lg:px-4">Harvest Intelligence, Grow with Certainty</p>
                 <div class="flex flex-col space-y- sm:flex-row sm:justify-center sm:space-y-0">
                     <a href="#" class="inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center text-white rounded-lg bg-green-500 hover:bg-green-600 focus:ring-4 focus:ring-green-300">
@@ -17,8 +17,8 @@ const Hero = () => {
                     </a>
                 </div>
             </div>
-            <div class="h-auto w-screen">
-                <img class="h-128 w-screen mx-auto" src="./terraces.jpg" alt="image description"/>
+            <div class="h-128 w-full overflow-hidden">
+                <img class="h-full w-full object-cover" src="./terraces.jpg" alt="image description"/>
             </div>
             <div class="py-8 px-4 mx-auto max-w-screen-xl lg:py-4">
                 <div class="grid md:grid-cols-3 gap-8 text-center">
@@ -43,7 +43,7 @@ const Hero = () => {
         <section class="bg-white">
             <div id="blog" class="py-8 px-4 mx-auto max-w-screen-xl lg:py-4">
                 <div>                    
-                    <a href="#" class="flex flex-col items-center bg-white border border-gray-200 rounded-lg shadow-sm md:flex-row md:max-screen-xl hover:bg-gray-100 mt-4">
+                    <a href="#" class="flex flex-col items-center bg-white rounded-lg shadow-sm md:flex-row md:max-screen-xl hover:bg-gray-100 mt-4">
                         <img class="object-cover w-full rounded-base h-128 md:h-full md:w-128 mb-4 md:mb-0" src="./strawberry_farm.jpg" alt=""/>
                         <div class="flex flex-col justify-between md:p-4 leading-normal">
                             <h5 class="mb-2 text-2xl font-bold tracking-tight text-heading">Data-Driven Precision</h5>
@@ -59,7 +59,7 @@ const Hero = () => {
                     </a>
                 </div>
                 <div id="about" class="bg-gray-50 border border-gray-200 rounded-lg p-4 md:p-12 mt-8 mb-8">
-                    <img class="mx-auto object-cover w-full rounded-base h-64 md:h-full md:w-48 mb-4 md:mb-8" src="./doa_icon.png" alt=""/>
+                    <img class="mx-auto object-cover w-full rounded-base h-48 md:h-full md:w-36 mb-4 md:mb-8" src="./doa_icon.png" alt=""/>
                     <p class="text-lg font-normal text-gray-500 mb-4 text-center">The Department of Agriculture is the principal government agency responsible for the promotion of the agricultural development and growth. 
                         It provides the policy framework, helps direct public investments, and in partnership with the local government units (LGUs), 
                         provides the support services necessary to make agriculture and agri-based enterprises profitable and help spread the benefits of development to the poor, particularly those in the rural areas.

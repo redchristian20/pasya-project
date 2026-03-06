@@ -19,7 +19,27 @@ const Contents = () => {
                     <button type="submit" class="text-white absolute end-2.5 bottom-2.5 bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Subscribe</button>
                 </div>
             </form>
+            <div class="py-8 px-4 mx-auto max-w-screen-xl lg:py-4">
+                <div class="grid md:grid-cols-3 gap-8 text-center">
+                    <div class="bg-white/30 backdrop-blur-md border border-white/30 rounded-xl p-6 shadow-lg">
+                        <img src="./leaf2.png" alt="Icon Description" />
+                        <h2 class="text-white text-2xl font-arimo mb-2">Real-Time Insights</h2>
+                        <p class="text-white  text-2xl font-arimo">Get instant updates on crop conditions and market trends</p>
+                    </div>
+                    <div class="bg-white/30 backdrop-blur-md border border-white/30 rounded-xl p-6 shadow-lg">
+                        <img src="./graphs.png" alt="Icon Description" />
+                        <h2 class="text-white text-2xl font-arimo mb-2">Advanced Analytics</h2>
+                        <p class="text-white  text-2xl font-arimo">Make data-driven decisions with our powerful tools</p>
+                    </div>
+                    <div class="bg-white/30 backdrop-blur-md border border-white/30 rounded-xl p-6 shadow-lg">
+                        <img src="./handshake.png" alt="Icon Description" />
+                        <h2 class="text-white text-2xl font-arimo mb-2">Expert Support</h2>
+                        <p class="text-white  text-1xl font-arimo">Access our team of agricultural specialists 24/7</p>
+                    </div>
+                </div>
+            </div>
         </div>
+        
     </section>
   )
 }

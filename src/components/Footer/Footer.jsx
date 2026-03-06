@@ -10,6 +10,7 @@ const Footer = () => {
                         <img src="./pasya.png" class="h-16 me-3" alt="Pasya Logo" />
                         <img src="./titleh.png" class="h-16 me-3" alt="Pasya" />
                     </a>
+                    <p class="mt-4 text-gray-200">PASYA cuurently supports decision-making for over <br></br> 10,000 hectares of Benguet's agricultural land.</p>
                 </div>
                 <div class="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
                     <div>
@@ -50,7 +51,7 @@ const Footer = () => {
             </div>
             <hr class="my-6 border-gray-200 sm:mx-auto lg:my-8" />
             <div class="sm:flex sm:items-center sm:justify-between">
-                <span class="text-sm text-gray-200 sm:text-center">© 2025 <a href="#" class="hover:underline">PASYA</a>. All Rights Reserved.
+                <span class="text-sm text-gray-200 sm:text-left">© 2025 <a href="#" class="hover:underline">PASYA</a>. All Rights <br></br> Reserved.
                 </span>
             </div>
             </div>
