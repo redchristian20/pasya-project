@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 const Hero = () => {
   return (
     <div>
-        <section class="bg-gradient-to-b from-green-200 via-white to-green-200">
+        <section id="home" class="bg-gradient-to-b from-green-200 via-white to-green-200">
             <div class="px-4 mx-auto max-w-screen-xl text-center py-24 lg:py-32">
                 <img class="h-64 max-w-sm mx-auto" src="./pasya.png" alt="image description"/>
                 <h1 class="mb-4 text-2xl font-extrabold tracking-tight leading-none text-green-500 md:text-2xl lg:text-3xl">PASYA: Predictive Analytics for Yield Advancement </h1>
@@ -40,8 +40,8 @@ const Hero = () => {
                 </div>
             </div>
         </section>
-        <section id="about" class="bg-white">
-            <div class="py-8 px-4 mx-auto max-w-screen-xl lg:py-4">
+        <section class="bg-white">
+            <div id="blog" class="py-8 px-4 mx-auto max-w-screen-xl lg:py-4">
                 <div>                    
                     <a href="#" class="flex flex-col items-center bg-white border border-gray-200 rounded-lg shadow-sm md:flex-row md:max-screen-xl hover:bg-gray-100 mt-4">
                         <img class="object-cover w-full rounded-base h-128 md:h-full md:w-128 mb-4 md:mb-0" src="./strawberry_farm.jpg" alt=""/>
@@ -58,7 +58,7 @@ const Hero = () => {
                         </div>
                     </a>
                 </div>
-                <div class="bg-gray-50 border border-gray-200 rounded-lg p-4 md:p-12 mt-8 mb-8">
+                <div id="about" class="bg-gray-50 border border-gray-200 rounded-lg p-4 md:p-12 mt-8 mb-8">
                     <img class="mx-auto object-cover w-full rounded-base h-64 md:h-full md:w-48 mb-4 md:mb-8" src="./doa_icon.png" alt=""/>
                     <p class="text-lg font-normal text-gray-500 mb-4 text-center">The Department of Agriculture is the principal government agency responsible for the promotion of the agricultural development and growth. 
                         It provides the policy framework, helps direct public investments, and in partnership with the local government units (LGUs), 
@@ -80,5 +80,4 @@ const Hero = () => {
     </div>
   )
 }
-
 export default Hero
