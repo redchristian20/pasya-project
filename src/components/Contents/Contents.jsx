@@ -4,8 +4,8 @@ const Contents = () => {
   return (
     <section id="work_with_us" class="bg-cover bg-no-repeat bg-center bg-[url('/farmers_harvesting.png')] bg-green-900 bg-blend-screen">
         <div class="py-8 px-4 mx-auto max-w-screen-xl text-center lg:py-16 z-10 relative">
-            <p class="mb-8 text-xl font-extrabold text-white lg:text-xl sm:px-32 lg:px-60">Ready Cultivate the Future of Farming in Benguet?</p>
-            <h1 class="mb-4 text-4xl font-extrabold tracking-tight leading-none text-white md:text-5xl lg:text-6xl">Join hundreds of farmers and <br></br>experts already using PASYA to <br></br>make smarter decisions</h1>
+            <p class="mb-8 text-xl font-extrabold text-white lg:text-3xl sm:px-32 lg:px-60">Ready Cultivate the Future of Farming in Benguet?</p>
+            <h1 class="mb-4 text-4xl font-extrabold tracking-tight leading-none text-white md:text-4xl lg:text-5xl">Join hundreds of farmers and <br></br>experts already using PASYA to <br></br>make smarter decisions</h1>
             <form class="w-full max-w-md mx-auto">   
                 <label for="default-email" class="mb-2 text-sm font-medium text-gray-900 sr-only">Email sign-up</label>
                 <div class="relative">
@@ -22,19 +22,19 @@ const Contents = () => {
             <div class="py-8 px-4 mx-auto max-w-screen-xl lg:py-4">
                 <div class="grid md:grid-cols-3 gap-8 text-center">
                     <div class="bg-white/30 backdrop-blur-md border border-white/30 rounded-xl p-6 shadow-lg">
-                        <img src="./leaf2.png" alt="Icon Description" />
-                        <h2 class="text-white text-2xl font-arimo mb-2">Real-Time Insights</h2>
-                        <p class="text-white  text-2xl font-arimo">Get instant updates on crop conditions and market trends</p>
+                        <img class="m-auto" src="./leaf2.png" alt="Icon Description" />
+                        <h2 class="text-white text-2xl font-Nunito-Sans mb-2">Real-Time Insights</h2>
+                        <p class="text-white  text-2l font-arimo">Get instant updates on crop <br></br> conditions and market trends</p>
                     </div>
                     <div class="bg-white/30 backdrop-blur-md border border-white/30 rounded-xl p-6 shadow-lg">
-                        <img src="./graphs.png" alt="Icon Description" />
-                        <h2 class="text-white text-2xl font-arimo mb-2">Advanced Analytics</h2>
-                        <p class="text-white  text-2xl font-arimo">Make data-driven decisions with our powerful tools</p>
+                        <img class="m-auto" src="./graphs.png" alt="Icon Description" />
+                        <h2 class="text-white text-2xl font-Nunito-Sans mb-2">Advanced Analytics</h2>
+                        <p class="text-white  text-2l font-arimo">Make data-driven decisions <br></br> with our powerful tools</p>
                     </div>
                     <div class="bg-white/30 backdrop-blur-md border border-white/30 rounded-xl p-6 shadow-lg">
-                        <img src="./handshake.png" alt="Icon Description" />
-                        <h2 class="text-white text-2xl font-arimo mb-2">Expert Support</h2>
-                        <p class="text-white  text-1xl font-arimo">Access our team of agricultural specialists 24/7</p>
+                        <img class="m-auto" src="./handshake.png" alt="Icon Description" />
+                        <h2 class="text-white text-2xl font-Nunito-Sans mb-2">Expert Support</h2>
+                        <p class="text-white  text-2l font-arimo">Access our team of <br></br> agricultural specialists 24/7</p>
                     </div>
                 </div>
             </div>
