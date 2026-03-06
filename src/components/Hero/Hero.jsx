@@ -22,17 +22,17 @@ const Hero = () => {
             </div>
             <div class="py-8 px-4 mx-auto max-w-screen-xl lg:py-4">
                 <div class="grid md:grid-cols-3 gap-8 text-center">
-                    <div class="bg-gradient-to-br from-green-300 via-white to-green-300 rounded-lg p-8 md:p-12">
+                    <div class="bg-gradient-to-br from-green-300 via-green-200 to-green-300 rounded-lg p-8 md:p-12">
                         <img src="./growing_plant.svg" alt="Icon Description" />
                         <h2 class="text-gray-900 text-3xl font-extrabold mb-2">10,000+</h2>
                         <p class="text-gray-700  text-2xl font-arimo"> Hectares monitored</p>
                     </div>
-                    <div class="bg-gradient-to-br from-green-300 via-white to-green-300 rounded-lg p-8 md:p-12">
+                    <div class="bg-gradient-to-br from-green-300 via-green-200 to-green-300 rounded-lg p-8 md:p-12">
                         <img src="./growth_arrow.svg" alt="Icon Description" />
                         <h2 class="text-gray-900 text-3xl font-extrabold mb-2">+20%</h2>
                         <p class="text-gray-700  text-2xl font-arimo">Yields</p>
                     </div>
-                    <div class="bg-gradient-to-br from-green-300 via-white to-green-300 rounded-lg p-8 md:p-12">
+                    <div class="bg-gradient-to-br from-green-300 via-green-200 to-green-300 rounded-lg p-8 md:p-12">
                         <img src="./leaf.svg" alt="Icon Description" />
                         <h2 class="text-gray-900 text-3xl font-extrabold mb-2">15%</h2>
                         <p class="text-gray-700  text-2xl font-arimo">Reduced Food Waste</p>
@@ -40,7 +40,7 @@ const Hero = () => {
                 </div>
             </div>
         </section>
-        <section class="bg-white">
+        <section id="about" class="bg-white">
             <div class="py-8 px-4 mx-auto max-w-screen-xl lg:py-4">
                 <div>                    
                     <a href="#" class="flex flex-col items-center bg-white border border-gray-200 rounded-lg shadow-sm md:flex-row md:max-screen-xl hover:bg-gray-100 mt-4">
